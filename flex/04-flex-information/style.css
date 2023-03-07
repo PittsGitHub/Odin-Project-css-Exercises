@@ -12,6 +12,51 @@ img {
   font-weight: 900;
 }
 
+/* *{border: solid 2px red} */
+
+.header-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-top-container{
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 32px 0px;
+}
+
+.header-top-items{
+  display: flex;
+}
+
+.header-bottom-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bottom-items{
+  /* border: solid 2px red; */
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 16px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
